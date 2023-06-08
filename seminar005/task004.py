@@ -8,7 +8,7 @@
 # Input: 2 -> 3 4
 # Output: 4 3
 
-import CustonFuncs
+import Funcs.CustonFuncs as CustonFuncs
 
 number = int(input("input a number: "))
 CustonFuncs.reverse_range(number)

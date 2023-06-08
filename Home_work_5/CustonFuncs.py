@@ -1,8 +1,3 @@
-# Последовательностью Фибоначчи называется
-# последовательность чисел a0
-# , a1 , ..., an , ..., где a0  = 0, a1 = 1, ak = ak-1 + ak-2 (k > 1).
-# Требуется найти N-е число Фибоначчи
-
 def LastFibo(n):
     if n in [0,1]:
         return n
@@ -31,5 +26,13 @@ def reverse_range(num):
     print(num,end =' ')
     if num > 0:
         reverse_range(num - 1)
-    
-
+        
+def powerOfNumber(a,b):
+    if b == 1:
+        return a
+    return a * powerOfNumber(a,b-1)
+        
+def recursionSum(a,b):
+    if a ==0:
+        return b
+    return recursionSum(a-1,b+1)

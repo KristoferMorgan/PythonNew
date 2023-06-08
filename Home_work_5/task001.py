@@ -5,10 +5,8 @@
 
 # A = 3; B = 5 -> 243 (3⁵)
 #     A = 2; B = 3 -> 8 
-def powerOfNumber(a,b):
-    if b == 1:
-        return a
-    return a * powerOfNumber(a,b-1)
+from CustonFuncs import powerOfNumber
+
 
 NumberA = int(input("enter number A: "))
 NumberB = int(input("enter number B: "))
