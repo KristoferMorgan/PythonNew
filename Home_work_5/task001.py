@@ -10,4 +10,4 @@ from CustonFuncs import powerOfNumber
 
 NumberA = int(input("enter number A: "))
 NumberB = int(input("enter number B: "))
-print(f"the power of the number A = {powerOfNumber(NumberA,NumberB)}")
+print(f"the power of the number A in power B = {powerOfNumber(NumberA,NumberB)}")
